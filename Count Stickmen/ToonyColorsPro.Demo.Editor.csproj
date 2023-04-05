@@ -41,8 +41,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Packages\JMO Assets\Toony Colors Pro\Demo TCP2\Common Demo Assets\Kino Bloom\Editor\BloomGraphDrawer.cs" />
      <Compile Include="Assets\Packages\JMO Assets\Toony Colors Pro\Demo TCP2\Common Demo Assets\Kino Bloom\Editor\BloomEditor.cs" />
+     <Compile Include="Assets\Packages\JMO Assets\Toony Colors Pro\Demo TCP2\Common Demo Assets\Kino Bloom\Editor\BloomGraphDrawer.cs" />
      <None Include="Assets\Packages\JMO Assets\Toony Colors Pro\Demo TCP2\Common Demo Assets\Kino Bloom\Editor\ToonyColorsPro.Demo.Editor.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Programms\2021.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

@@ -41,11 +41,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Packages\NavMeshComponents\Scripts\NavMeshRebake.cs" />
+     <Compile Include="Assets\Packages\NavMeshComponents\Scripts\NavMeshLink.cs" />
      <Compile Include="Assets\Packages\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
      <Compile Include="Assets\Packages\NavMeshComponents\Scripts\NavMeshSurface.cs" />
      <Compile Include="Assets\Packages\NavMeshComponents\Scripts\NavMeshModifier.cs" />
-     <Compile Include="Assets\Packages\NavMeshComponents\Scripts\NavMeshRebake.cs" />
-     <Compile Include="Assets\Packages\NavMeshComponents\Scripts\NavMeshLink.cs" />
      <None Include="Assets\Packages\NavMeshComponents\Scripts\NavMeshComponents.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Programms\2021.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

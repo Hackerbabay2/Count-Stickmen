@@ -155,7 +155,6 @@ MonoBehaviour:
   _target: {fileID: 6409175647582899976}
   _radiusAroundTarget: 1
   _circleLayers: 3
-  _gizmosCountUnits: 6
   _density: 11
   _platofrm: {fileID: 791115480}
   Units: []
@@ -1031,7 +1030,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.40392157, g: 0.047058824, b: 0.9411765, a: 0}
+  m_BackGroundColor: {r: 0.12883584, g: 0.66177297, b: 0.8867924, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1112,7 +1111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 6409175647582899976}
   _speed: 1
-  _indent: 5
+  _indent: 2
 --- !u!1001 &6688879433281496609
 PrefabInstance:
   m_ObjectHideFlags: 0

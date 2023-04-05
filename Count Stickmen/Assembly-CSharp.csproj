@@ -41,44 +41,44 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\VFX Library\ParticleEffectsLibrary.cs" />
-     <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" />
      <Compile Include="Assets\Packages\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
      <Compile Include="Assets\Nothing.cs" />
-     <Compile Include="Assets\Packeges\Stickman &amp; Hyper Casual Character\Hyper Casual Character\scripts\Character_control.cs" />
-     <Compile Include="Assets\Scripts\Bonuses\Scaler.cs" />
      <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" />
      <Compile Include="Assets\Scripts\Generator\LevelGenerator.cs" />
+     <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" />
+     <Compile Include="Assets\Packages\Epic Toon FX\Scripts\ETFXLightFade.cs" />
+     <Compile Include="Assets\Scripts\Stickman\CounterStickmans.cs" />
+     <Compile Include="Assets\Scripts\Bonuses\BonuseMultiplication.cs" />
+     <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\VFX Library\ParticleEffectsLibrary.cs" />
      <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" />
-     <Compile Include="Assets\Packages\GUI Kit Casual Game\Scripts\PanelControl.cs" />
-     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
-     <Compile Include="Assets\Scripts\Bonuses\GroupActiveSwitcher.cs" />
-     <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" />
-     <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" />
      <Compile Include="Assets\Scripts\Camera\TargetFollower.cs" />
      <Compile Include="Assets\Packages\GUI Kit Casual Game\Scripts\Panel.cs" />
-     <Compile Include="Assets\Scripts\Generator\Platform.cs" />
-     <Compile Include="Assets\Scripts\Stickman\AIUnit.cs" />
-     <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\VFX Library\UICanvasManager.cs" />
-     <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
-     <Compile Include="Assets\Scripts\Enemy\BattleOrganizer.cs" />
-     <Compile Include="Assets\Scripts\Generator\Points\GeneratorPoint.cs" />
      <Compile Include="Assets\Scripts\Bonuses\BonuseScaler.cs" />
-     <Compile Include="Assets\Scripts\Stickman\UnitsManager.cs" />
-     <Compile Include="Assets\Packages\Epic Toon FX\Scripts\ETFXLightFade.cs" />
-     <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" />
-     <Compile Include="Assets\Scripts\Stickman\CounterStickmans.cs" />
      <Compile Include="Assets\Scripts\Stickman\TargetMovement.cs" />
-     <Compile Include="Assets\Scripts\Stickman\StickmenMovement.cs" />
-     <Compile Include="Assets\Scripts\Bonuses\BonuseMultiplication.cs" />
      <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\ETFXTarget.cs" />
-     <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\VFX Library\PEButtonScript.cs" />
      <Compile Include="Assets\Packages\Epic Toon FX\Scripts\ETFXRotation.cs" />
      <Compile Include="Assets\Packeges\Stickman &amp; Hyper Casual Character\Hyper Casual Character\scripts\CameraMovement.cs" />
-     <Compile Include="Assets\Scripts\Enemy\EnemyManager.cs" />
+     <Compile Include="Assets\Scripts\Bonuses\BonuseParametrSetter.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Stickman\UnitsManager.cs" />
+     <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" />
+     <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\VFX Library\PEButtonScript.cs" />
+     <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" />
+     <Compile Include="Assets\Packages\GUI Kit Casual Game\Scripts\PanelControl.cs" />
+     <Compile Include="Assets\Scripts\Stickman\AIUnit.cs" />
+     <Compile Include="Assets\Scripts\Generator\Platform.cs" />
+     <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\VFX Library\UICanvasManager.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
+     <Compile Include="Assets\Scripts\Generator\Points\GeneratorPoint.cs" />
      <Compile Include="Assets\Packages\GUI Kit Casual Game\Extensions\UIParticle\UIParticleSystem.cs" />
      <Compile Include="Assets\Scripts\Traps\Trap.cs" />
-     <Compile Include="Assets\Scripts\Bonuses\BonuseParametrSetter.cs" />
+     <Compile Include="Assets\Scripts\Bonuses\GroupActiveSwitcher.cs" />
+     <Compile Include="Assets\Scripts\Bonuses\Scaler.cs" />
+     <Compile Include="Assets\Packeges\Stickman &amp; Hyper Casual Character\Hyper Casual Character\scripts\Character_control.cs" />
+     <Compile Include="Assets\Packages\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" />
+     <Compile Include="Assets\Scripts\Enemy\BattleOrganizer.cs" />
+     <Compile Include="Assets\Scripts\Stickman\StickmenMovement.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyManager.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyGenerator.cs" />
      <None Include="Assets\Packages\GUI Kit Casual Game\Extensions\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Packages\JMO Assets\Toony Colors Pro\Shader Templates 2\SG2_Template_URP.txt" />
@@ -922,9 +922,13 @@
       <Project>{87c5fd4f-be7a-7e3a-21d7-83a73103c296}</Project>
       <Name>ToonyColorsPro.Demo.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="ToonyColorsPro2.Demo.csproj">
-      <Project>{ac7f1cc8-5177-f902-8171-239feee5f505}</Project>
-      <Name>ToonyColorsPro2.Demo</Name>
+    <ProjectReference Include="ToonyColorsPro.Runtime.csproj">
+      <Project>{745eda7b-2db7-65f9-c15a-1976dfcdf019}</Project>
+      <Name>ToonyColorsPro.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsEditor.csproj">
+      <Project>{e50253b7-3cc9-82b9-399a-d8655fa72373}</Project>
+      <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
       <Project>{01e2cc82-a552-5306-af62-1f5ace58912f}</Project>
@@ -934,13 +938,9 @@
       <Project>{88fcfcd2-6d9e-8cf1-a9f3-c3fc546fd671}</Project>
       <Name>ToonyColorsPro.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="ToonyColorsPro.Runtime.csproj">
-      <Project>{745eda7b-2db7-65f9-c15a-1976dfcdf019}</Project>
-      <Name>ToonyColorsPro.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{e50253b7-3cc9-82b9-399a-d8655fa72373}</Project>
-      <Name>NavMeshComponentsEditor</Name>
+    <ProjectReference Include="ToonyColorsPro2.Demo.csproj">
+      <Project>{ac7f1cc8-5177-f902-8171-239feee5f505}</Project>
+      <Name>ToonyColorsPro2.Demo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -41,12 +41,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Packages\NavMeshComponents\Editor\NavMeshAssetManager.cs" />
      <Compile Include="Assets\Packages\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs" />
      <Compile Include="Assets\Packages\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs" />
+     <Compile Include="Assets\Packages\NavMeshComponents\Editor\NavMeshAssetManager.cs" />
      <Compile Include="Assets\Packages\NavMeshComponents\Editor\NavMeshModifierEditor.cs" />
-     <Compile Include="Assets\Packages\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />
      <Compile Include="Assets\Packages\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs" />
+     <Compile Include="Assets\Packages\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />
      <None Include="Assets\Packages\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Programms\2021.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

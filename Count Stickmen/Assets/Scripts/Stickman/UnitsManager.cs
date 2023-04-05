@@ -8,7 +8,6 @@ public class UnitsManager : MonoBehaviour
     [SerializeField] private Transform _target;
     [SerializeField] private float _radiusAroundTarget;
     [SerializeField] private int _circleLayers = 5;
-    [SerializeField] private int _gizmosCountUnits = 1;
     [SerializeField] private float _density;
     [SerializeField] private Transform _platofrm;
 

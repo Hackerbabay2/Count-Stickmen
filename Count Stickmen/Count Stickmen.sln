@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{50d411bd-c1c6-262b-496e-cf2728ecc56f}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToonyColorsPro.Runtime", "ToonyColorsPro.Runtime.csproj", "{745eda7b-2db7-65f9-c15a-1976dfcdf019}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToonyColorsPro2.Demo", "ToonyColorsPro2.Demo.csproj", "{ac7f1cc8-5177-f902-8171-239feee5f505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToonyColorsPro.Runtime", "ToonyColorsPro.Runtime.csproj", "{745eda7b-2db7-65f9-c15a-1976dfcdf019}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponents", "NavMeshComponents.csproj", "{01e2cc82-a552-5306-af62-1f5ace58912f}"
 EndProject
@@ -22,10 +22,10 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{50d411bd-c1c6-262b-496e-cf2728ecc56f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{50d411bd-c1c6-262b-496e-cf2728ecc56f}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{745eda7b-2db7-65f9-c15a-1976dfcdf019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{745eda7b-2db7-65f9-c15a-1976dfcdf019}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ac7f1cc8-5177-f902-8171-239feee5f505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ac7f1cc8-5177-f902-8171-239feee5f505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745eda7b-2db7-65f9-c15a-1976dfcdf019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745eda7b-2db7-65f9-c15a-1976dfcdf019}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01e2cc82-a552-5306-af62-1f5ace58912f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{01e2cc82-a552-5306-af62-1f5ace58912f}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88fcfcd2-6d9e-8cf1-a9f3-c3fc546fd671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
